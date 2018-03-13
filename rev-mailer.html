@@ -1,4 +1,4 @@
-<!doctype html>
+PO Box 66208<!doctype html>
 <html>
 <head>
     <title>RevMailer</title>
@@ -39,7 +39,7 @@ Bernie Sanders</textarea>
     </div>
 </div>
 
-    
+
     <script>
 
         var RevMailer = function(){
@@ -51,7 +51,7 @@ Bernie Sanders</textarea>
 
                 'config': {
                     'header': "<html> <head> <style> div{font-family: \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; font-weight: 400; line-height:1.4; color: #364350; } a{color: #147FD7; } .express-lane-links .link{margin: 0; } .express-lane-links .link a{font-family: sans-serif; font-size: 18px; background-color: #147FD7; border-top: 1px solid #1e88e0; border-bottom: 2px solid #0e72c4; width: 290px; margin: 12px auto; border-radius: 4px; text-align: center; color: white; text-decoration: none; padding: 12px 5px; font-weight:700; display: block; text-transform: uppercase; letter-spacing: 0.075em; } .express-lane-links .link a:hover{background-color: #1e88e0; } .express-lane-links .link.other a{font-size: 17px; } </style></head><body><span style=\"display:none !important; visibility:hidden; mso-hide:all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;\">Medicare for All is the only way to solve our health care crisis</span> <h1 style=\"text-align: center; padding: 25px 0 20px 0; border: 0; margin: 0;\"><img width=\"200\" alt=\"Our Revolution\" src=\"https://s.bsd.net/bernie16/main/page/-/Our%20Revolution/OurRev-Logo-160827-335px.png\"></h1> <div style=\"line-height:140%;padding-top:1px;\">",
-                    'footer': "<p> <strong>&nbsp;</strong></p><div class=\"footer\" style=\"text-align: center; margin-top: 40px; padding-top: 15px; border-top: 1px solid #aaa;\"> <p class=\"disclaimer\" style=\"display: inline-block; border: 1px solid #555; padding: 5px 10px; color: #444; margin-bottom: 5px; font-size: 12px; max-width:400px;\">PAID FOR BY OUR REVOLUTION<br> 603 2ND ST, NE<br> WASHINGTON, DC, 20002<br><br> Not authorized by any candidate or candidate committee. Our Revolution is a 501(c)(4) organization. Donations to Our Revolution are not deductible as charitable contributions for Federal income tax purposes. All donations are made to support Our Revolution’s general mission and are not designated for any specific activity.</p> <p style=\"font-size: 9px; margin: 15px 0 15px; color: #444;\">603 2nd St NE, Washington, DC 20002 </p> </div> </div></body></html>",
+                    'footer': "<p> <strong>&nbsp;</strong></p><div class=\"footer\" style=\"text-align: center; margin-top: 40px; padding-top: 15px; border-top: 1px solid #aaa;\"> <p class=\"disclaimer\" style=\"display: inline-block; border: 1px solid #555; padding: 5px 10px; color: #444; margin-bottom: 5px; font-size: 12px; max-width:400px;\">PAID FOR BY OUR REVOLUTION<br> PO Box 66208<br> WASHINGTON, DC, 20035<br><br> Not authorized by any candidate or candidate committee. Our Revolution is a 501(c)(4) organization. Donations to Our Revolution are not deductible as charitable contributions for Federal income tax purposes. All donations are made to support Our Revolution’s general mission and are not designated for any specific activity.</p> <p style=\"font-size: 9px; margin: 15px 0 15px; color: #444;\">PO Box 66208, Washington, DC 20035 </p> </div> </div></body></html>",
                     'p_wrappers': ["<p style=\"font-size: 17px; font-family: Arial; line-height:140%;\">", "</p>"]
                 },
 
@@ -67,7 +67,7 @@ Bernie Sanders</textarea>
                 },
 
                 generate_email: function(e){
-                    var body = self.config.p_wrappers[0] + 
+                    var body = self.config.p_wrappers[0] +
                                 e.target.value.replace(/\n\n/g, self.config.p_wrappers[1] + self.config.p_wrappers[0]).replace(/\n/g, '<br>') +
                                 self.config.p_wrappers[1];
 
